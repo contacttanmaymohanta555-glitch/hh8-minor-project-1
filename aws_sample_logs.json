@@ -1,0 +1,20 @@
+{
+"Records": [
+{
+"eventTime": "2025-01-10T10:15:30Z",
+"eventName": "ConsoleLogin",
+"userIdentity": {
+"userName": "admin"
+},
+"sourceIPAddress": "192.168.1.10"
+},
+{
+"eventTime": "2025-01-10T11:00:00Z",
+"eventName": "CreateBucket",
+"userIdentity": {
+"userName": "developer"
+},
+"sourceIPAddress": "192.168.1.20"
+}
+]
+}

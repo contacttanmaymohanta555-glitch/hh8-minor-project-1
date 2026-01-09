@@ -1,0 +1,16 @@
+{
+"value": [
+{
+"timeGenerated": "2025-01-10T10:20:00Z",
+"operationName": "UserLogin",
+"caller": "azure-admin",
+"ipAddress": "10.0.0.5"
+},
+{
+"timeGenerated": "2025-01-10T11:30:00Z",
+"operationName": "CreateVM",
+"caller": "azure-dev",
+"ipAddress": "10.0.0.8"
+}
+]
+}
