@@ -23,3 +23,20 @@ The Offline Cloud Log Monitoring System is a Python-based project that demonstra
 🧠 Demonstrate centralized log analysis without real cloud access
 
 🎓 Build a minor project suitable for academic evaluation
+
+🧠 Problem Statement
+
+Cloud environments generate huge volumes of logs across multiple services and providers.
+Monitoring these logs individually is inefficient and error-prone.
+
+❓ How can we unify and analyze logs from different cloud platforms in a centralized way?
+
+✅ Solution: A unified offline cloud log monitoring system.
+
+🛠️ Technology Stack
+Component	Technology
+Language	🐍 Python 3
+Log Format	📄 JSON
+Cloud Logs	☁️ AWS CloudTrail (Sample), Azure Monitor (Sample)
+IDE	💻 Visual Studio Code
+Platform	🖥️ Cross-platform (Windows / Linux / macOS)
