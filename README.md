@@ -40,3 +40,128 @@ Log Format	📄 JSON
 Cloud Logs	☁️ AWS CloudTrail (Sample), Azure Monitor (Sample)
 IDE	💻 Visual Studio Code
 Platform	🖥️ Cross-platform (Windows / Linux / macOS)
+📁 Project Folder Structure
+cloud-log-monitoring-offline
+│
+├── aws_sample_logs.json        # Sample AWS CloudTrail logs
+├── azure_sample_logs.json      # Sample Azure Monitor logs
+├── aws_logs.py                 # AWS log parser
+├── azure_logs.py               # Azure log parser
+├── main.py                     # Main program
+├── unified_logs.json           # Output file (auto-generated)
+└── README.md                   # Project documentation
+
+⚙️ How the Project Works
+🔹 Step 1: Read Cloud Logs
+
+AWS and Azure logs are stored as JSON files
+
+Each cloud has a separate parser module
+
+🔹 Step 2: Normalize Logs
+
+Logs are converted into a common structure
+
+Fields like:
+
+Cloud Provider
+
+Timestamp
+
+Event Name
+
+User
+
+IP Address
+
+🔹 Step 3: Merge Logs
+
+AWS + Azure logs are combined into a single list
+
+🔹 Step 4: Store Unified Logs
+
+Final output is written to:
+
+unified_logs.json
+
+▶️ How to Run the Project
+✅ Prerequisites
+
+Python 3 installed
+
+VS Code (recommended)
+
+🧪 Steps to Execute
+python main.py
+
+🎉 Successful Output
+Unified Cloud Logs Created Successfully!
+Total Events: 4
+
+
+📄 A new file unified_logs.json will be created.
+
+📄 Sample Output (Unified Logs)
+{
+  "cloud": "AWS",
+  "time": "2025-01-10T10:15:30Z",
+  "event": "ConsoleLogin",
+  "user": "admin",
+  "ip": "192.168.1.10"
+}
+
+🔍 Key Features
+
+✅ Offline execution (No AWS/Azure account needed)
+
+✅ Centralized log monitoring concept
+
+✅ Modular and clean Python code
+
+✅ Beginner-friendly
+
+✅ Viva & demo ready
+
+🧪 Why Offline Mode?
+
+🔐 Live cloud APIs require:
+
+Paid accounts
+
+Access keys
+
+Internet dependency
+
+🎓 For academic projects, offline logs:
+
+Avoid authentication issues
+
+Ensure smooth demo
+
+Focus on conceptual learning
+
+🧑‍🏫 Viva Explanation (Important)
+
+“This project demonstrates centralized cloud log monitoring by normalizing AWS CloudTrail and Azure Monitor logs into a unified format. For academic purposes, offline log files are used instead of real-time cloud APIs.”
+
+🚀 Future Enhancements
+
+🔔 Suspicious activity detection
+
+📊 Log analytics & filtering
+
+🌐 Flask-based web dashboard
+
+☁️ Real AWS & Azure API integration
+
+🧠 SIEM-style alerting system
+
+👨‍💻 Author
+
+Name: Tanmay Mohanta
+
+Course: B.Tech
+
+Domain: Cybersecurity
+
+Year: 2022–2026
