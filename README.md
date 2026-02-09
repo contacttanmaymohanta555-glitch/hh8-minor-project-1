@@ -48,4 +48,12 @@ EndpointSecurityMonitor/
 ├── azure_sample_logs.json # Mock Azure Activity data
 └── unified_logs.json     # The final normalized output file
 
+## 👨‍💻 Author
+Name: Tanmay Mohanta
+
+Course: B.Tech
+
+Domain: Cybersecurity
+
+Year: 2022–2026
 
