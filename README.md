@@ -57,3 +57,4 @@ Domain: Cybersecurity
 
 Year: 2022–2026
 
+<img width="1920" height="1080" alt="Cloud Log Monitor" src="https://github.com/user-attachments/assets/52b7c4aa-f67d-447a-be93-540bd147c362" />
